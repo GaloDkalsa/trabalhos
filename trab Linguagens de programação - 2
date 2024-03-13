@@ -1,0 +1,13 @@
+# Estrutura de repetição (loop for)
+print("Exemplo de estrutura de repetição:")
+for i in range(5):
+    print("Número:", i)
+
+# Estrutura de tomada de decisão (if-else)
+print("\nExemplo de estrutura de tomada de decisão:")
+idade = int(input("Digite sua idade: "))
+
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
