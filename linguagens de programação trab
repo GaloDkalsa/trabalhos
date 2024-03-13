@@ -1,0 +1,26 @@
+a. Python:
+Python é uma linguagem de programação interpretada, de alto nível e multiuso, conhecida por sua simplicidade e legibilidade. Abaixo está um exemplo mínimo de código em Python que imprime "Hello, World!":
+
+python
+Copy code
+print("Hello, World!")
+b. JavaScript:
+JavaScript é uma linguagem de programação de alto nível, interpretada principalmente em navegadores web. É conhecida por sua interoperabilidade e dinamicidade. Abaixo está um exemplo mínimo de código em JavaScript que imprime "Hello, World!" no console do navegador:
+
+javascript
+Copy code
+console.log("Hello, World!");
+c. C++:
+C++ é uma linguagem de programação de uso geral, compilada e de alto desempenho, amplamente utilizada em sistemas embarcados, jogos e software de sistema. Abaixo está um exemplo mínimo de código em C++ que imprime "Hello, World!":
+
+cpp
+Copy code
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+Para executar esses códigos, você precisa de um ambiente de desenvolvimento configurado para cada linguagem. Python e JavaScript são linguagens interpretadas, então você pode executá-las diretamente em um terminal ou console. Para C++, você precisa de um compilador C++ instalado em seu sistema.
+
+Após executar os códigos, você pode registrar os resultados, incluindo qualquer mensagem de saída, em um arquivo de texto. Este arquivo de texto pode então ser adicionado a um repositório GitHub para compartilhamento. Certifique-se de incluir comentários explicativos e instruções claras sobre como executar os códigos em seu README.md.
