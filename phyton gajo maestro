@@ -1,0 +1,8 @@
+print('Hello world!')
+idade = 80
+if idade <= 18:
+ print ("eu sou mais esperto")
+elif idade >= 18 and idade < 60:
+ print ("sou desempregado")
+else: 
+ print ("lule livre")
