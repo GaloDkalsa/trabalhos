@@ -1,0 +1,46 @@
+Dominar os conceitos fundamentais da computação ao lidar com o Direito é vantajoso devido à crescente digitalização do setor jurídico, que demanda compreensão das tecnologias envolvidas em casos relacionados a crimes cibernéticos, proteção de dados, propriedade intelectual online, entre outros.
+
+a) Algoritmo: Sequência finita de instruções bem definidas e ordenadas que levam à solução de um problema ou realização de uma tarefa.
+b) Nuvem: Refere-se à disponibilidade de recursos de computação (armazenamento, processamento) pela internet, sem necessidade de infraestrutura local.
+c) Servidor: Um computador ou sistema dedicado a fornecer serviços, recursos ou dados para outros computadores, conhecidos como clientes.
+d) Neutralidade da rede: Princípio que defende a igualdade de tratamento de todos os dados na internet, sem discriminação por tipo de conteúdo, site ou plataforma.
+
+A palavra "Internet" é um termo amplo que engloba todos esses conceitos, representando a interconexão de máquinas (computadores), cabos (infraestrutura física), programas (software) e dados (informações).
+
+Os computadores foram inventados para automatizar tarefas, processar grandes volumes de dados e executar operações complexas de forma rápida e eficiente, indo além das capacidades humanas em termos de velocidade e precisão.
+
+As redes neurais artificiais são limitadas por sua capacidade de generalização e falta de compreensão do contexto e ética envolvidos em decisões complexas. Algoritmos de IA baseados em lógica simbólica ou em técnicas específicas podem ser mais adequados para tomar decisões médicas ou de concessão de empréstimos, como sistemas especialistas.
+
+Um arquivo binário contém dados codificados em formato binário, enquanto um arquivo de texto contém caracteres legíveis por humanos codificados em uma codificação específica, como ASCII ou UTF-8.
+
+Um formato proprietário de arquivos é controlado por uma empresa ou entidade e pode ter restrições de uso e acesso, enquanto um formato aberto é livremente acessível e pode ser implementado por qualquer pessoa sem restrições.
+
+Um protocolo de comunicação aberto é padronizado e pode ser implementado livremente por qualquer pessoa, promovendo a interoperabilidade e a inovação, enquanto um protocolo proprietário é controlado por uma entidade específica, limitando a liberdade de implementação e podendo criar barreiras à entrada no mercado.
+
+a) Um sistema operacional é um software que gerencia os recursos do computador e fornece uma interface entre o usuário e o hardware, permitindo a execução de programas.
+b) Não, existem vários sistemas operacionais disponíveis, como Windows, macOS e Linux.
+c) Em alguns casos, vender computadores com sistema operacional pré-instalado pode ser considerado venda casada, dependendo das leis antitruste do país e das políticas de concorrência.
+
+a) A LGPD pode abranger o tratamento de dados pessoais por empresas brasileiras, mesmo que os datacenters estejam localizados em países estrangeiros, se esses dados forem coletados de cidadãos brasileiros ou se a empresa atuar no território nacional.
+
+b)
+
+1) Os servidores de aplicação devem agir de acordo com as regras de comunidade estabelecidas pela plataforma para garantir um ambiente seguro e saudável para os usuários.
+2) Os servidores de aplicação devem tomar medidas para combater conteúdos falsos e prejudiciais que possam destruir reputações, como moderar ou remover o conteúdo e implementar políticas de verificação de fatos.
+
+a) As estruturas de repetição em Python são o "for" e o "while".
+b) Os blocos de comando em Python são definidos pela indentação, ou seja, pela distância em relação à margem esquerda do código.
+c) A operação realizada pelo operador + em Python é a adição de números ou a concatenação de strings.
+d) Uma função é um bloco de código reutilizável que realiza uma tarefa específica.
+e) Para definir uma função em Python, utilizamos a palavra-chave "def" seguida do nome da função e seus parâmetros.
+f) As estruturas de tomada de decisão em Python são "if", "elif" e "else". Um exemplo de cada:
+
+python
+Copy code
+x = 10
+if x > 5:
+    print("x é maior que 5")
+elif x == 5:
+    print("x é igual a 5")
+else:
+    print("x é menor que 5")
