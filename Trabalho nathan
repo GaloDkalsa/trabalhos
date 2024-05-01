@@ -1,0 +1,118 @@
+1-
+def imprimir_informacoes(nome, idade, cidade):
+    print("Nome:", nome, end=" - ")
+    print("Idade:", idade, end=" - ")
+    print("Cidade:", cidade + "!", sep=" ")
+
+# Exemplo de uso:
+imprimir_informacoes("Nathan", 21, "Rio de Janeiro")
+
+Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+================== RESTART: C:/Users/202102504317/Nathan P.py ==================
+Nome: Nathan - Idade: 21 - Cidade: Rio de Janeiro!
+
+
+2-
+def calcular_operacao(numero1, numero2, operacao):
+    if operacao == '+':
+        resultado = numero1 + numero2
+    elif operacao == '-':
+        resultado = numero1 - numero2
+    elif operacao == '*':
+        resultado = numero1 * numero2
+    elif operacao == '/':
+        if numero2 != 0:
+            resultado = numero1 / numero2
+        else:
+            print("Erro: Divisão por zero não é permitida.")
+            return
+    else:
+        print("Operação inválida. Use '+', '-', '*' ou '/'.")
+        return
+
+    print(f"Resultado da operação {numero1} {operacao} {numero2} é: {resultado}")
+
+# Exemplo de uso:
+numero1 = float(input("Digite o primeiro número: "))
+numero2 = float(input("Digite o segundo número: "))
+operacao = input("Digite a operação desejada (+, -, *, /): ")
+calcular_operacao(numero1, numero2, operacao)
+
+Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+===================== RESTART: C:/Users/202102504317/zz.py =====================
+Digite o primeiro número: 10
+Digite o segundo número: 5
+Digite a operação desejada (+, -, *, /): *
+Resultado da operação 10.0 * 5.0 é: 50.0
+
+3-
+
+def criar_lista_compras():
+    entrada = input("Digite os itens da lista de compras, separados por vírgula: ")
+    itens = entrada.split(",")  # Divide a entrada em uma lista de itens
+    print("Itens da lista de compras:")
+    for i, item in enumerate(itens, start=1):
+        print(f"Item {i}: {item.strip()}")  # Remove espaços em branco antes e depois do item
+
+# Exemplo de uso:
+criar_lista_compras()
+
+Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+===================== RESTART: C:/Users/202102504317/aa.py =====================
+Digite os itens da lista de compras, separados por vírgula: jujuba, manjuba, maracujá, pepsi
+Itens da lista de compras:
+Item 1: jujuba
+Item 2: manjuba
+Item 3: maracujá
+Item 4: Pepsi
+
+4-
+def converter_celsius_para_fahrenheit(celsius):
+    fahrenheit = (celsius * 9/5) + 32
+    return fahrenheit
+
+# Exemplo de uso:
+temperatura_celsius = float(input("Digite a temperatura em graus Celsius: "))
+temperatura_fahrenheit = converter_celsius_para_fahrenheit(temperatura_celsius)
+print(f"Valor em Fahrenheit: {temperatura_fahrenheit:.2f}°F")
+
+Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+===================== RESTART: C:/Users/202102504317/ff.py =====================
+Digite a temperatura em graus Celsius: 32.00
+Valor em Fahrenheit: 89.60°F
+
+5-
+
+def obter_nomes():
+    nomes = []  # Inicializa uma lista vazia para armazenar os nomes
+    while True:
+        nome = input("Digite um nome (ou 'sair' para encerrar): ")
+        if nome.lower() == "sair":
+            break  # Sai do loop quando o usuário digita "sair"
+        nomes.append(nome)  # Adiciona o nome à lista
+
+    print("Nomes digitados:")
+    for i, nome in enumerate(nomes, start=1):
+        print(f"Item {i}: {nome}")
+
+# Exemplo de uso:
+obter_nomes()
+
+Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+===================== RESTART: C:/Users/202102504317/ss.py =====================
+Digite um nome (ou 'sair' para encerrar): “Janeba”, “Kamikat 2015” e “Epaminondras”
+Digite um nome (ou 'sair' para encerrar): Janeba, Kamikat 2015 e Epaminondras
+Digite um nome (ou 'sair' para encerrar): sair
+Nomes digitados:
+Item 1: “Janeba”, “Kamikat 2015” e “Epaminondras”
+Item 2: Janeba, Kamikat 2015 e Epaminondras
